@@ -19,7 +19,7 @@ class Application extends React.Component {
 
     // fetch data
     fetchResources(sortByRecent) {
-        let url = sortByRecent ?
+        const url = sortByRecent ?
                 this.props.recent : this.props.alltime;
 
         fetch(url)
