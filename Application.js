@@ -89,7 +89,7 @@ class Application extends React.Component {
 // render leaderboard content
 function Leaderboard(props) {
     // create instance of User component for every array index
-    const userRows = props.users.map((user, i) => {
+    const rows = props.users.map((user, i) => {
         return (
             <User
                 rank={i + 1}
@@ -119,7 +119,7 @@ function Leaderboard(props) {
                     }
                 </th>
             </tr>
-            {userRows}
+            {rows}
         </table>
     );
 }
