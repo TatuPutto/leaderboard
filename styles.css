@@ -1,0 +1,65 @@
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid red;
+}
+
+tr:nth-child(2n + 3) {
+    background-color: whitesmoke;
+}
+
+th {
+    border: 1px solid #cccccc;
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.leaderboard {
+    width: 60%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.leaderboard-head {
+    text-align: center;
+    background-color: #43794d;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.toggle {
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user {
+    text-align: left;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    display: inline;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
